@@ -1,0 +1,50 @@
+<template>
+    <div class="d-flex flex-column align-items-center" id="JobCard">
+        <img class="mb-3 cursor" style="max-width: 80px" :src="chosenLogo">
+        <span style="font-weight: bold">{{name}}</span>
+        <span>{{role}}</span>
+        <span class="location">{{location}}</span>
+        <a :href="website"><font-awesome-icon class="mt-1" icon="globe" /></a>
+
+    </div>    
+</template>
+
+<script>
+import rcaflogo from '../assets/rcaflogo.png'
+import tamvoeslogo from '../assets/tamvoeslogo.png'
+import ethgloballogo from '../assets/ethgloballogo.png'
+import eelogo from '../assets/eelogo.png'
+
+export default {
+    name: 'JobCard',
+    props: {
+        name: String,
+        role: String,
+        logo: String,
+        location: String,
+        website: String
+    },
+    data: function() {
+        var chosenLogo = null
+        switch(this.logo) {
+            case "rcaf": chosenLogo = rcaflogo; break;
+            case "tamvoes": chosenLogo = tamvoeslogo; break;
+            case "ethglobal": chosenLogo = ethgloballogo; break;
+            case "ee": chosenLogo = eelogo; break;
+        }
+        return {
+            chosenLogo: chosenLogo
+        }
+    }
+}
+</script>
+
+<style scoped>
+    .cursor {
+        cursor: pointer
+    }
+    .location {
+        font-size: 14px;
+        font-weight: 550;
+    }
+</style>
