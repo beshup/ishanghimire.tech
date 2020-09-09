@@ -7,10 +7,15 @@
             <span class="input" data-ty="input">i love</span>
             <span class="input" data-ty="input" data-ty-prompt="❤️" >solving complex problems that minimize labour to output ratios</span>
             <span class="input" data-ty="input" data-ty-prompt="❤️" >bringing tech to the excluded</span>
-            <span class="input" data-ty="input" data-ty-prompt="❤️" >building solutions in novel areas made from linking fields</span>
-            <span class="input" data-ty="input">head to <a href="https://ishanghimire.life">ishanghimire.life</a> to see what I do outside of tech!</span>
+            <span class="input" data-ty="input" data-ty-prompt="❤️" >building solutions in novel areas created by linking fields</span>
+            <span class="input" data-ty="input">head to <a target="_blank" id="aElem" href="https://ishanghimire.life">ishanghimire.life</a> to see what I do outside of tech!</span>
             <span class="input" data-ty="input">🚧 warning 🚧: site currently under construction, install .life</span>
             <span class="input" data-ty="progress" data-ty-progressPercent="24"></span>
+        </div>
+        <div class="mt-4">
+            <a target="_blank" href="https://github.com/beshup"><font-awesome-icon :icon="['fab','github']" class="mr-4 github hover" size="3x" /></a>
+            <a target="_blank" href="../../public/assets/resu/IshanGhimireResumeW2021.pdf" download><font-awesome-icon icon="file-alt" class="mr-4 resume hover" size="3x" /></a>
+            <a target="_blank" href="mailto: ighimire@uwaterloo.ca"><font-awesome-icon icon="envelope" class="mail hover" size="3x" /></a>
         </div>
     </div>    
 </template>
@@ -36,14 +41,28 @@ export default {
         top: 0;
         left: 0;
     }
-    a {
+
+    #termynal {
+         box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.25);
+        
+    }
+    #aElem {
         text-decoration: none;
         color: inherit;
     }
-    a :hover {
+    #aElem :hover {
         text-decoration: none;
         color: inherit;  
     }
+
+    .resume {
+        color:black;
+    }
+
+    .mail {
+        color: black
+    }
+
 
 </style>
 

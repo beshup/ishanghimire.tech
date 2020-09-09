@@ -4,7 +4,7 @@
         <span style="font-weight: bold">Go2Balancer</span>
         <span>Concurrent TCP Load Balancer</span>
         <div>
-            <a href="https://github.com/beshup/Go2Balancer"><font-awesome-icon class="mt-1 icon github" :icon="['fab','github']" /></a>
+            <a target="_blank" href="https://github.com/beshup/Go2Balancer"><font-awesome-icon class="mt-1 icon github" :icon="['fab','github']" /></a>
         </div>
 
     </div>    

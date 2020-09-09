@@ -4,7 +4,7 @@
         <span style="font-weight: bold">Clay</span>
         <span>Cross Platform Game Engine</span>
         <div>
-            <a href="https://github.com/beshup/Clay"><font-awesome-icon class="mt-1 icon github" :icon="['fab','github']" size="2x"/></a>
+            <a target="_blank" href="https://github.com/beshup/Clay"><font-awesome-icon class="mt-1 icon github" :icon="['fab','github']" size="2x"/></a>
         </div>
 
     </div>    
