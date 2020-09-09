@@ -12,6 +12,8 @@
 
 <script>
 
+// GRAPHQL, DOCKER, ETC WAYYY MORE
+
 export default {
     name: 'Go2Balancer'
 }

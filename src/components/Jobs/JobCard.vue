@@ -4,7 +4,7 @@
         <span style="font-weight: bold">{{name}}</span>
         <span>{{role}}</span>
         <span class="location">{{location}}</span>
-        <a :href="website"><font-awesome-icon class="mt-1" icon="globe" /></a>
+        <a :href="website"><font-awesome-icon class="mt-1 icon" icon="globe" /></a>
 
     </div>    
 </template>

@@ -36,4 +36,16 @@ export default {
   color: #2c3e50;
   margin-top: 60px;
 }
+
+.icon {
+  font-size: 20px;
+}
+
+.github {
+  color: black;
+}
+
+.youtube {
+  color: red;
+}
 </style>
