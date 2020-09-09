@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div id="app" class="container">
     <Header />
     <Jobs />
     <Projects />
@@ -10,9 +10,9 @@
 
 <script>
 import Header from './components/Header.vue'
-import Jobs from './components/Jobs.vue'
-import Projects from './components/Projects.vue'
-import Technologies from './components/Technologies.vue'
+import Jobs from './components/Jobs/Jobs.vue'
+import Projects from './components/Projects/Projects.vue'
+import Technologies from './components/Technologies/Technologies.vue'
 import Footer from './components/Footer.vue'
 
 export default {

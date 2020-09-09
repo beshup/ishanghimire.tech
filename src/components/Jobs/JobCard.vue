@@ -1,5 +1,5 @@
 <template>
-    <div class="d-flex flex-column align-items-center" id="JobCard">
+    <div class="d-flex flex-column align-items-center" >
         <img class="mb-3 cursor" style="max-width: 80px" :src="chosenLogo">
         <span style="font-weight: bold">{{name}}</span>
         <span>{{role}}</span>
@@ -10,10 +10,10 @@
 </template>
 
 <script>
-import rcaflogo from '../assets/rcaflogo.png'
-import tamvoeslogo from '../assets/tamvoeslogo.png'
-import ethgloballogo from '../assets/ethgloballogo.png'
-import eelogo from '../assets/eelogo.png'
+import rcaflogo from '../../assets/rcaflogo.png'
+import tamvoeslogo from '../../assets/tamvoeslogo.png'
+import ethgloballogo from '../../assets/ethgloballogo.png'
+import eelogo from '../../assets/eelogo.png'
 
 export default {
     name: 'JobCard',
