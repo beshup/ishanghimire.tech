@@ -1,13 +1,14 @@
 <template>
     <div id="projects">
-        <carousel-3d :space="850" :animationSpeed="750" :inverse-scaling="1000" :width="500" :height="200" :perspective="55">
+        <hr class="line">
+        <carousel-3d class="mb-0 mt-3" :space="850" :animationSpeed="750" :inverse-scaling="1000" :width="500" :height="200" :perspective="55">
             <slide :index="0" class="slide">
                 <Go2Balancer />
             </slide>
             <slide :index="1" class="slide">
                 <Covid />
             </slide>
-            <slide :index="2" class="slide">
+            <slide :index="2" class="slide mt-4">
                 <UnderratedTunes />
             </slide>
             <slide :index="3" class="slide">
@@ -49,4 +50,5 @@ export default {
         background-color: white;
         border: none;
     }
+
 </style>

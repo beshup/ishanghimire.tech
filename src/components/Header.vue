@@ -7,16 +7,17 @@
             <span class="input" data-ty="input">i love</span>
             <span class="input" data-ty="input" data-ty-prompt="❤️" >solving complex problems that minimize labour to output ratios</span>
             <span class="input" data-ty="input" data-ty-prompt="❤️" >bringing tech to the excluded</span>
-            <span class="input" data-ty="input" data-ty-prompt="❤️" >building solutions in novel areas created by linking fields</span>
+            <span class="input" data-ty="input" data-ty-prompt="❤️" >building solutions in novel areas created by combining fields</span>
             <span class="input" data-ty="input">head to <a target="_blank" id="aElem" href="https://ishanghimire.life">ishanghimire.life</a> to see what I do outside of tech!</span>
             <span class="input" data-ty="input">🚧 warning 🚧: site currently under construction, install .life</span>
             <span class="input" data-ty="progress" data-ty-progressPercent="24"></span>
         </div>
         <div class="mt-4">
-            <a target="_blank" href="https://github.com/beshup"><font-awesome-icon :icon="['fab','github']" class="mr-4 github hover" size="3x" /></a>
-            <a target="_blank" href="../assets/resu/IshanGhimireResumeW2021.pdf"><font-awesome-icon icon="file-alt" class="mr-4 resume hover" size="3x" /></a>
-            <a target="_blank" href="mailto: ighimire@uwaterloo.ca"><font-awesome-icon icon="envelope" class="mail hover" size="3x" /></a>
+            <a target="_blank" class="icono" href="https://github.com/beshup"><font-awesome-icon :icon="['fab','github']" class="mr-4 github hover icono" size="3x" /></a>
+            <a target="_blank" class="icono" href="../assets/resu/IshanGhimireResumeW2021.pdf"><font-awesome-icon icon="file-alt" class="mr-4 resume hover icono" size="3x" /></a>
+            <a target="_blank" class="icono" href="mailto: ighimire@uwaterloo.ca"><font-awesome-icon icon="envelope" class="mail hover icono" size="3x" /></a>
         </div>
+        <a class="mt-4 arrow" href="#jobs"><font-awesome-icon icon="arrow-down" size="lg" /></a>
     </div>    
 </template>
 
@@ -63,6 +64,19 @@ export default {
         color: black
     }
 
+    .icono :hover {
+        color: green;
+    }
+    .arrow {
+        text-decoration: none;
+        color: gray;
+        transition: transform 1s;
+        animation-duration: 2s;
+    }
+    
+    .arrow :hover {
+        transform: translate(0px, 5px)
+    }
 
 </style>
 

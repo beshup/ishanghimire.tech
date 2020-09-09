@@ -55,4 +55,12 @@ export default {
 @media only screen and (max-width: 760px) {
   #screen { display: none; }
 }
+
+.line {
+   border: 0;
+    height: 2px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0),  rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.75),  rgba(0, 0, 0, 0));
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
 </style>

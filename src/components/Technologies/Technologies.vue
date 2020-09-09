@@ -1,6 +1,7 @@
 <template>
     <div id="technologies">
-        <carousel-3d :space="850" :animationSpeed="750" :inverse-scaling="1000" :width="600" :height="200" :perspective="55">
+        <hr class="line">
+        <carousel-3d class="mb-0" :space="850" :animationSpeed="750" :inverse-scaling="1000" :width="600" :height="175" :perspective="55">
             <slide :index="0" class="slide">
                 <Javascript />
             </slide>
@@ -16,22 +17,23 @@
             <slide :index="4" class="slide">
                <C />
             </slide>
-            <slide :index="5" class="slide">
+            <slide :index="5" class="slide mt-1">
                 <Htmlcss />
             </slide>
             <slide :index="6" class="slide">
                 <Cplusplus />
             </slide>
-            <slide :index="7" class="slide">
+            <slide :index="7" class="slide mt-1">
                 <Databases />
             </slide>
             <slide :index="8" class="slide">
                 <Mobile />
             </slide>
-            <slide :index="9" class="slide">
+            <slide :index="9" class="slide mt-3">
                 <Other /> 
             </slide>
         </carousel-3d>
+        <hr class="line">
     </div>    
 </template>
 

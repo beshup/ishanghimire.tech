@@ -1,6 +1,6 @@
 <template>
-    <div id="footer">
-        Footer
+    <div id="footer" class="mt-3 mb-3">
+        <span class="footertext">© 2020 Ishan Ghimire</span>
     </div>    
 </template>
 
@@ -11,7 +11,8 @@ export default {
 </script>
 
 <style scoped>
-    #footer {
-        background-color: black;
+    .footertext {
+        color: grey;
+        font-size: 10px;
     }
 </style>
