@@ -1,24 +1,3 @@
 # ishanghimire.tech
 
-## Project setup
-```
-yarn install
-```
-
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
-
-### Compiles and minifies for production
-```
-yarn build
-```
-
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+My tech portfolio. Been messing around with Vue recently and wanted to build a simple starter project with it.
