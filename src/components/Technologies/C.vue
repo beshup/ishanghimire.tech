@@ -11,7 +11,7 @@
 
 <script>
 
-// GRAPHQL, DOCKER, ETC WAYYY MORE
+
 
 export default {
     name: 'C'

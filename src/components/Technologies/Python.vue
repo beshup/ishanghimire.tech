@@ -15,7 +15,7 @@
 
 <script>
 
-// GRAPHQL, DOCKER, ETC WAYYY MORE
+
 
 export default {
     name: 'Python'
