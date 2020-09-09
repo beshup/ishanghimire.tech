@@ -1,6 +1,6 @@
 <template>
     <div class="d-flex flex-column align-items-center" id="UnderratedTunes">
-        <img class="mb-3 cursor" style="max-width: 90px;" src="../../assets/underratedtuneslogo.png">
+        <img class="mb-3 cursor" style="max-width: 70px;" src="../../assets/underratedtuneslogo.png">
         <span style="font-weight: bold">Underrated Tunes</span>
         <span>Social Platform for Music Lovers</span>
         <div>

@@ -1,6 +1,6 @@
 <template>
     <div class="d-flex flex-column align-items-center" id="FunGuy">
-        <img class="mb-3 cursor" style="max-width: 90px;" src="../../assets/funguylogo.png">
+        <img class="mb-3 cursor" style="max-width: 70px;" src="../../assets/funguylogo.png">
         <span style="font-weight: bold">Fun Guy Home Security</span>
         <span>Remote Home Security</span>
         <div>

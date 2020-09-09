@@ -5,22 +5,22 @@
                 <Javascript />
             </slide>
             <slide :index="1" class="slide">
-                <Python />
+                <Go />
             </slide>
             <slide :index="2" class="slide">
                 <Ruby />
             </slide>
             <slide :index="3" class="slide">
-                <Go />
+                <Python />
             </slide>
             <slide :index="4" class="slide">
                <C />
             </slide>
             <slide :index="5" class="slide">
-                <Cplusplus />
+                <Htmlcss />
             </slide>
             <slide :index="6" class="slide">
-                <Htmlcss />
+                <Cplusplus />
             </slide>
             <slide :index="7" class="slide">
                 <Databases />
@@ -28,7 +28,7 @@
             <slide :index="8" class="slide">
                 <Mobile />
             </slide>
-            <slide :index="8" class="slide">
+            <slide :index="9" class="slide">
                 <Other /> 
             </slide>
         </carousel-3d>
@@ -45,6 +45,7 @@ import Cplusplus from './Cplusplus'
 import Databases from './Databases'
 import Mobile from './Mobile'
 import Other from './Other'
+import Htmlcss from './Htmlcss'
 
 export default {
     name: 'Technologies',
@@ -57,7 +58,8 @@ export default {
         Cplusplus,
         Databases,
         Mobile,
-        Other
+        Other,
+        Htmlcss
     }
 }
 </script>

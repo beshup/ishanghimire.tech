@@ -1,6 +1,6 @@
 <template>
     <div class="d-flex flex-column align-items-center" id="Go2Balancer">
-        <img class="mb-3 cursor" style="max-width: 90px;" src="../../assets/go2balancerlogo.png">
+        <img class="mb-3 cursor" style="max-width: 70px;" src="../../assets/go2balancerlogo.png">
         <span style="font-weight: bold">Go2Balancer</span>
         <span>Concurrent TCP Load Balancer</span>
         <div>

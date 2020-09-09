@@ -1,10 +1,10 @@
 <template>
-    <div class="d-flex flex-column align-items-center" id="Go2Balancer">
-        <img class="mb-3 cursor" style="max-width: 90px;" src="../../assets/go2balancerlogo.png">
-        <span style="font-weight: bold">Go2Balancer</span>
-        <span>Concurrent TCP Load Balancer</span>
+    <div class="d-flex flex-column align-items-center" id="Other">
+        <img class="mb-3 cursor" style="max-width: 70px;" src="../../assets/technologies/other/other.png">
+        <span style="font-weight: bold">Other</span>
         <div>
-            <a href="https://github.com/beshup/Go2Balancer"><font-awesome-icon class="mt-1 icon github" :icon="['fab','github']" /></a>
+            <img class="mr-1" style="width: 35px;" src="../../assets/technologies/other/docker.png">
+            <img class="mr-1" style="width: 35px;" src="../../assets/technologies/other/graphql.png">
         </div>
 
     </div>    
@@ -15,16 +15,12 @@
 // GRAPHQL, DOCKER, ETC WAYYY MORE
 
 export default {
-    name: 'Go2Balancer'
+    name: 'Other'
 }
 </script>
 
 <style scoped>
     .cursor {
         cursor: pointer
-    }
-    .location {
-        font-size: 14px;
-        font-weight: 550;
     }
 </style>
