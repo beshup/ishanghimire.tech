@@ -4,4 +4,4 @@ My tech portfolio. Been messing around with Vue recently and wanted to build a s
 
 Find it at https://ishanghimire.tech !
 
-ishanghimire.life for what Ido outside of tech coming soon ! 
+ishanghimire.life for what I do outside of tech coming soon ! 
