@@ -6,6 +6,7 @@ import { library } from '@fortawesome/fontawesome-svg-core'
 import { faGlobe, faFileAlt, faEnvelope, faArrowDown } from '@fortawesome/free-solid-svg-icons'
 import { faGithub, faYoutube } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
+import './assets/aos/dist/aos.css'
 
 library.add(faGlobe, faGithub, faYoutube, faFileAlt, faEnvelope, faArrowDown)
 

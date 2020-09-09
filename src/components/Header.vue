@@ -1,5 +1,5 @@
 <template>
-    <div id="header" class="d-flex flex-column align-items-center justify-content-center">
+    <div id="header" data-aos="zoom-in" data-aos-easing="700" data-aos-duration="1500" class="d-flex flex-column align-items-center justify-content-center">
         <span class="name"></span>
         <div class="d-flex flex-column align-items-start" id="termynal" data-termynal data-ty-cursor="ishanghimire">
             <span class="input" data-ty="input">software engineer at the university of waterloo</span>
@@ -9,8 +9,8 @@
             <span class="input" data-ty="input" data-ty-prompt="❤️" >bringing tech to the excluded</span>
             <span class="input" data-ty="input" data-ty-prompt="❤️" >building solutions in novel areas created by combining fields</span>
             <span class="input" data-ty="input">head to <a target="_blank" id="aElem" href="https://ishanghimire.life">ishanghimire.life</a> to see what I do outside of tech!</span>
-            <span class="input" data-ty="input">🚧 warning 🚧: site currently under construction, install .life</span>
-            <span class="input" data-ty="progress" data-ty-progressPercent="24"></span>
+            <span class="input" data-ty="input">🚧 warning 🚧: site currently under construction</span>
+           <!-- <span class="input" data-ty="progress" data-ty-progressPercent="24"></span> -->
         </div>
         <div class="mt-4">
             <a target="_blank" class="icono" href="https://github.com/beshup"><font-awesome-icon :icon="['fab','github']" class="mr-4 github hover icono" size="3x" /></a>
@@ -22,13 +22,16 @@
 </template>
 
 <script>
+import AOS from 'aos'
+import '../assets/js/termynal'
+
 export default {
-    name: 'Header'
+    name: 'Header',
+    created() {
+        AOS.init()
+    }
 }
 
- //Header
-        //Miminimizing labour to output ratios
-       // To learn more about me head on over to ishanghimire.life construction icon WARNING currently under construction
 </script>
 
 <style scoped>
