@@ -14,7 +14,7 @@
         </div>
         <div class="mt-4">
             <a target="_blank" href="https://github.com/beshup"><font-awesome-icon :icon="['fab','github']" class="mr-4 github hover" size="3x" /></a>
-            <a target="_blank" href="../../public/assets/resu/IshanGhimireResumeW2021.pdf" download><font-awesome-icon icon="file-alt" class="mr-4 resume hover" size="3x" /></a>
+            <a target="_blank" href="../assets/resu/IshanGhimireResumeW2021.pdf"><font-awesome-icon icon="file-alt" class="mr-4 resume hover" size="3x" /></a>
             <a target="_blank" href="mailto: ighimire@uwaterloo.ca"><font-awesome-icon icon="envelope" class="mail hover" size="3x" /></a>
         </div>
     </div>    
