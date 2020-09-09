@@ -1,11 +1,14 @@
 <template>
+<div>
+  <Header />
   <div id="app" class="container">
-    <Header />
     <Jobs />
     <Projects />
     <Technologies />
     <Footer />
+    <span id="screen"></span>
   </div>
+</div>
 </template>
 
 <script>
@@ -29,7 +32,7 @@ export default {
 
 <style>
 #app {
-  font-family: 'Courier New', Courier, monospace;
+  font-family: 'Fira Mono', Consolas, Menlo, Monaco, 'Courier New', Courier, monospace;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
@@ -47,5 +50,9 @@ export default {
 
 .youtube {
   color: red;
+}
+
+@media only screen and (max-width: 760px) {
+  #screen { display: none; }
 }
 </style>

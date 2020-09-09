@@ -1,6 +1,6 @@
 <template>
     <div id="projects">
-        <carousel-3d :space="850" :animationSpeed="750" :inverse-scaling="1000" :width="600" :height="200" :perspective="55">
+        <carousel-3d :space="850" :animationSpeed="750" :inverse-scaling="1000" :width="500" :height="200" :perspective="55">
             <slide :index="0" class="slide">
                 <Go2Balancer />
             </slide>

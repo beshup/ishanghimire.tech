@@ -1,6 +1,6 @@
 <template>
     <div id="jobs" >
-        <carousel-3d :space="850" :animationSpeed="750" :inverse-scaling="1000" :width="600" :height="200" :perspective="55">
+        <carousel-3d :space="850" :animationSpeed="750" :inverse-scaling="1000" :width="400" :height="200" :perspective="55">
             <slide :index="0" class="slide">
                <JobCard name="Flight Deck (Royal Canadian Air Force)" role="Software Engineering Intern" logo="rcaf" location="Waterloo, ON" website="https://theflightdeck.ca/"/>
             </slide>

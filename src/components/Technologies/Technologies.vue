@@ -60,6 +60,22 @@ export default {
         Mobile,
         Other,
         Htmlcss
+    },
+    data: function() {
+        var is_mobile = false;
+
+        if( document.querySelector('#screen').css('display')=='none') {
+            is_mobile = true;       
+        }
+
+        // now I can use is_mobile to run javascript conditionally
+
+        if (is_mobile == true) {
+            //Conditional script here
+        }
+        return {
+
+        }
     }
 }
 </script>
