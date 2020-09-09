@@ -1,7 +1,7 @@
 <template>
     <div id="technologies">
         <hr class="line">
-        <carousel-3d class="mb-0" :space="850" :animationSpeed="750" :inverse-scaling="1000" :width="600" :height="175" :perspective="55">
+        <carousel-3d class="mb-0" :space="850" :animationSpeed="750" :inverse-scaling="1000" :width="600" :height="heightForDevice" :perspective="55">
             <slide :index="0" class="slide">
                 <Javascript />
             </slide>
@@ -64,19 +64,13 @@ export default {
         Htmlcss
     },
     data: function() {
-        var is_mobile = false;
-
-        if( document.querySelector('#screen').css('display')=='none') {
-            is_mobile = true;       
-        }
-
-        // now I can use is_mobile to run javascript conditionally
-
-        if (is_mobile == true) {
-            //Conditional script here
+        let height = 175;
+        switch(this.$isMobile()) {
+            case true: 
+                height = 300;
         }
         return {
-
+            heightForDevice: height
         }
     }
 }

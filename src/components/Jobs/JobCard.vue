@@ -1,7 +1,7 @@
 <template>
     <div class="d-flex flex-column align-items-center" >
         <img class="mb-3 cursor" style="max-width: 80px" :src="chosenLogo">
-        <span style="font-weight: bold">{{name}}</span>
+        <span class="text-center" style="font-weight: bold">{{name}}</span>
         <span>{{role}}</span>
         <span class="location">{{location}}</span>
         <a target="_blank" :href="website"><font-awesome-icon class="mt-1 icon" icon="globe" /></a>

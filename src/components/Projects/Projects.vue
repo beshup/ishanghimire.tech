@@ -1,7 +1,7 @@
 <template>
     <div id="projects">
         <hr class="line">
-        <carousel-3d class="mb-0 mt-3" :space="850" :animationSpeed="750" :inverse-scaling="1000" :width="500" :height="200" :perspective="55">
+        <carousel-3d class="mb-0 mt-3" :space="850" :animationSpeed="750" :inverse-scaling="1000" :width="500" :height="heightForDevice" :perspective="55">
             <slide :index="0" class="slide">
                 <Go2Balancer />
             </slide>
@@ -41,6 +41,16 @@ export default {
         FunGuy,
         Covid,
         Clay
+    },
+    data: function() {
+        let height = 200;
+        switch(this.$isMobile()) {
+            case true: 
+                height = 350;
+        }
+        return {
+            heightForDevice: height
+        }
     }
 }
 </script>

@@ -1,7 +1,7 @@
 <template>
     <div id="jobs">
         <hr class="line">
-        <carousel-3d class="mb-1" :space="850" :animationSpeed="750" :inverse-scaling="1000" :width="400" :height="200" :perspective="55">
+        <carousel-3d class="mb-1" :space="850" :animationSpeed="750" :inverse-scaling="1000" :width="400" :height="heightForDevice" :perspective="55">
             <slide :index="0" class="slide">
                <JobCard name="Flight Deck (Royal Canadian Air Force)" role="Software Engineering Intern" logo="rcaf" location="Waterloo, ON" website="https://theflightdeck.ca/"/>
             </slide>
@@ -25,6 +25,16 @@ export default {
     name: 'Jobs',
     components: {
         JobCard
+    },
+    data: function() {
+        let height = 200;
+        switch(this.$isMobile()) {
+            case true: 
+                height = 250;
+        }
+        return {
+            heightForDevice: height
+        }
     }
 }
 </script>
