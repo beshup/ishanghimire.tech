@@ -17,6 +17,10 @@ Vue.component('font-awesome-icon', FontAwesomeIcon)
 
 Vue.config.productionTip = false
 
+document.addEventListener("DOMContentLoaded", function() { 
+  window.scrollTo(0, 0);
+});
+
 Vue.use(VueMobileDetection);
 Vue.use(Carousel3d)
 

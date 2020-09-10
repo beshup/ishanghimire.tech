@@ -17,7 +17,7 @@
         </div>
         <div class="mt-4">
             <a target="_blank" class="icono" href="https://github.com/beshup"><font-awesome-icon :icon="['fab','github']" class="mr-4 github hover icono" size="3x" /></a>
-            <a target="_blank" class="icono" :href="`${publicPath}/public/assets/resu/IshanGhimireResumeW2021.pdf`"><font-awesome-icon icon="file-alt" class="mr-4 resume hover icono" size="3x" /></a>
+            <a target="_blank" class="icono" href="https://ishanghimire.tech/assets/resume/IshanGhimireResumeW2021.pdf"><font-awesome-icon icon="file-alt" class="mr-4 resume hover icono" size="3x" /></a>
             <a target="_blank" class="icono" href="mailto: ighimire@uwaterloo.ca"><font-awesome-icon icon="envelope" class="mail hover icono" size="3x" /></a>
         </div>
     </div> 
@@ -35,10 +35,10 @@
         </div>
         <div class="mt-4">
             <a target="_blank" class="icono" href="https://github.com/beshup"><font-awesome-icon :icon="['fab','github']" class="mr-4 github hover icono" size="3x" /></a>
-            <a target="_blank" class="icono" href="../assets/resu/IshanGhimireResumeW2021.pdf"><font-awesome-icon icon="file-alt" class="mr-4 resume hover icono" size="3x" /></a>
+            <a target="_blank" class="icono"  href="https://ishanghimire.tech/assets/resume/IshanGhimireResumeW2021.pdf"><font-awesome-icon icon="file-alt" class="mr-4 resume hover icono" size="3x" /></a>
             <a target="_blank" class="icono" href="mailto: ighimire@uwaterloo.ca"><font-awesome-icon icon="envelope" class="mail hover icono" size="3x" /></a>
         </div>
-        <a class="mt-4 arrow" href="#jobs"><font-awesome-icon icon="arrow-down" size="lg" /></a>
+        <font-awesome-icon class="arrow mt-4" icon="arrow-down" size="lg" />
     </div>   
 </template>
 
@@ -103,13 +103,8 @@ export default {
     .arrow {
         text-decoration: none;
         color: gray;
-        transition: transform 1s;
-        animation-duration: 2s;
     }
     
-    .arrow :hover {
-        transform: translate(0px, 5px)
-    }
 
     .mobileT {
         font-size: 14px;
