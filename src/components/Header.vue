@@ -17,7 +17,7 @@
         </div>
         <div class="mt-4">
             <a target="_blank" class="icono" href="https://github.com/beshup"><font-awesome-icon :icon="['fab','github']" class="mr-4 github hover icono" size="3x" /></a>
-            <a target="_blank" class="icono" href="../assets/resume/IshanGhimireResumeW2021.pdf"><font-awesome-icon icon="file-alt" class="mr-4 resume hover icono" size="3x" /></a>
+            <a target="_blank" class="icono" href="/assets/IshanGhimireResumeW2021.pdf"><font-awesome-icon icon="file-alt" class="mr-4 resume hover icono" size="3x" /></a>
             <a target="_blank" class="icono" href="mailto: ighimire@uwaterloo.ca"><font-awesome-icon icon="envelope" class="mail hover icono" size="3x" /></a>
         </div>
     </div> 
@@ -35,7 +35,7 @@
         </div>
         <div class="mt-4">
             <a target="_blank" class="icono" href="https://github.com/beshup"><font-awesome-icon :icon="['fab','github']" class="mr-4 github hover icono" size="3x" /></a>
-            <a target="_blank" class="icono"  href="../assets/resume/IshanGhimireResumeW2021.pdf"><font-awesome-icon icon="file-alt" class="mr-4 resume hover icono" size="3x" /></a>
+            <a target="_blank" class="icono" href="/assets/IshanGhimireResumeW2021.pdf"><font-awesome-icon icon="file-alt" class="mr-4 resume hover icono" size="3x" /></a>
             <a target="_blank" class="icono" href="mailto: ighimire@uwaterloo.ca"><font-awesome-icon icon="envelope" class="mail hover icono" size="3x" /></a>
         </div>
         <font-awesome-icon class="arrow mt-4" icon="arrow-down" size="lg" />
