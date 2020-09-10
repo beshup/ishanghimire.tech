@@ -1,7 +1,14 @@
 <template>
 <div>
   <Header />
-  <div id="app" class="container">
+  <div v-if="$isMobile()" id="app" class="container">
+    <Jobs />
+    <Projects />
+    <Technologies />
+    <Footer />
+    <span id="screen"></span>
+  </div>
+  <div v-else id="app">
     <Jobs />
     <Projects />
     <Technologies />
