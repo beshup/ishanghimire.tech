@@ -5,8 +5,8 @@
         <span class="text-center">Geographic Covid-19 Sentiment Visualization</span>
         <span class="location">Top Project at RU hacks</span>
         <span class="mt-1">
-            <a target="_blank" href="https://github.com/beshup/PredictCovid"><img class="mr-2" style="width: 24px;" src="../../assets/githublogo.png"/> </a>
-            <a target="_blank" href="https://devpost.com/software/covid-my-tweets-hz30cv"><img style="width: 27px;" src="../../assets/devpost.svg"></a>
+            <a target="_blank" href="https://github.com/beshup/PredictCovid"><img class="mr-2 githubIcon" style="width: 24px;" src="../../assets/githublogo.png"/> </a>
+            <a target="_blank" href="https://devpost.com/software/covid-my-tweets-hz30cv"><img style="width: 27px;" class="devpostIcon" src="../../assets/devpost.svg"></a>
         </span>
 
     </div>    

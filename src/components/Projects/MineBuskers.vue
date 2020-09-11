@@ -5,7 +5,7 @@
         <span class="text-center">Decentralized, Geocaching Platform for Buskers</span>
         <span class="location text-center">Winner of Torus Labs API Award at ETHWaterloo</span>
         <div>
-            <a target="_blank" href="https://devpost.com/software/minebusker"><img style="max-width: 27px;" src="../../assets/devpost.svg"></a>
+            <a target="_blank" href="https://devpost.com/software/minebusker"><img style="max-width: 27px;" class="devpostIcon" src="../../assets/devpost.svg"></a>
         </div>
 
     </div>    

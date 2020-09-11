@@ -31,12 +31,12 @@
             <span class="input" data-ty="input" data-ty-prompt="❤️" >building solutions in novel areas created by combining fields</span>
            <!-- <span class="input" data-ty="progress" data-ty-progressPercent="24"></span> -->
         </div>
-        <div class="mt-4">
-            <a target="_blank" class="icono" href="https://github.com/beshup"><font-awesome-icon :icon="['fab','github']" class="mr-4 github hover icono" size="3x" /></a>
-            <a target="_blank" class="icono" href="/assets/IshanGhimireResumeW2021.pdf"><font-awesome-icon icon="file-alt" class="mr-4 resume hover icono" size="3x" /></a>
-            <a target="_blank" class="icono" href="mailto: ighimire@uwaterloo.ca"><font-awesome-icon icon="envelope" class="mail hover icono" size="3x" /></a>
+        <div class="mt-5">
+            <a target="_blank" class="icono" href="https://github.com/beshup"><font-awesome-icon :icon="['fab','github']" class="mr-4 github hover icono" size="4x" /></a>
+            <a target="_blank" class="icono" href="/assets/IshanGhimireResumeW2021.pdf"><font-awesome-icon icon="file-alt" class="mr-4 resume hover icono" size="4x" /></a>
+            <a target="_blank" class="icono" href="mailto: ighimire@uwaterloo.ca"><font-awesome-icon icon="envelope" class="mail hover icono" size="4x" /></a>
         </div>
-        <font-awesome-icon class="arrow mt-4" icon="arrow-down" size="lg" />
+        <a href="#jobs"><font-awesome-icon class="arrow mt-4" icon="caret-down" size="3x" /></a>
     </div>   
 </template>
 
@@ -100,7 +100,12 @@ export default {
     }
     .arrow {
         text-decoration: none;
-        color: gray;
+        color: black;
+        opacity: 0.5;
+    }
+
+    .arrow:hover {
+        opacity: 1;
     }
     
 

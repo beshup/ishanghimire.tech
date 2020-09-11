@@ -6,14 +6,12 @@
     <Projects />
     <Technologies />
     <Footer />
-    <span id="screen"></span>
   </div>
   <div v-else id="app">
     <Jobs />
     <Projects />
     <Technologies />
     <Footer />
-    <span id="screen"></span>
   </div>
 </div>
 </template>
@@ -49,18 +47,42 @@ export default {
 
 .icon {
   font-size: 24px;
+  opacity: 0.8;
 }
 
+.icon:hover {
+  opacity: 1;
+}
+
+.devpostIcon {
+  opacity: 0.7
+}
+
+.devpostIcon:hover {
+  opacity: 1
+}
+
+.youtubeIcon {
+  opacity: 0.6
+}
+
+.youtubeIcon:hover {
+  opacity: 1
+}
+
+.githubIcon {
+  opacity: 0.8
+}
+
+.githubIcon:hover {
+  opacity: 1
+}
 .github {
   color: black;
 }
 
 .youtube {
   color: red;
-}
-
-@media only screen and (max-width: 760px) {
-  #screen { display: none; }
 }
 
 .line {
