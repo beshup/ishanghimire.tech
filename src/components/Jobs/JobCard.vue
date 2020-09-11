@@ -1,6 +1,6 @@
 <template>
     <div class="d-flex flex-column align-items-center" >
-        <img class="mb-3 cursor" style="max-width: 80px" :src="chosenLogo">
+        <img class="mb-3" style="max-width: 80px" :src="chosenLogo">
         <span class="text-center" style="font-weight: bold">{{name}}</span>
         <span>{{role}}</span>
         <span class="location">{{location}}</span>

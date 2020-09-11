@@ -1,6 +1,6 @@
 <template>
     <div v-if="$isMobile()" class="d-flex flex-column align-items-center mt-1" id="Go2Balancer">
-        <img class="mb-3 cursor" style="max-width: 70px;" src="../../assets/go2balancerlogo.png">
+        <img class="mb-3" style="max-width: 70px;" src="../../assets/go2balancerlogo.png">
         <span style="font-weight: bold">Go2Balancer</span>
         <span>Concurrent TCP Load Balancer</span>
         <div>
@@ -9,7 +9,7 @@
 
     </div>  
     <div v-else class="d-flex flex-column align-items-center" id="Go2Balancer">
-        <img class="mb-3 cursor" style="max-width: 70px;" src="../../assets/go2balancerlogo.png">
+        <img class="mb-3" style="max-width: 70px;" src="../../assets/go2balancerlogo.png">
         <span style="font-weight: bold">Go2Balancer</span>
         <span>Concurrent TCP Load Balancer</span>
         <div>

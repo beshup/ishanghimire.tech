@@ -1,6 +1,6 @@
 <template>
     <div v-if="$isMobile()" class="d-flex flex-column align-items-center mt-3" id="FunGuy">
-        <img class="mb-3 cursor" style="max-width: 70px;" src="../../assets/funguylogo.png">
+        <img class="mb-3 " style="max-width: 70px;" src="../../assets/funguylogo.png">
         <span style="font-weight: bold">Fun Guy Home Security</span>
         <span>Remote Home Security</span>
         <div>
@@ -10,7 +10,7 @@
 
     </div> 
     <div v-else class="d-flex flex-column align-items-center" id="FunGuy">
-        <img class="mb-3 cursor" style="max-width: 70px;" src="../../assets/funguylogo.png">
+        <img class="mb-3 " style="max-width: 70px;" src="../../assets/funguylogo.png">
         <span style="font-weight: bold">Fun Guy Home Security</span>
         <span>Remote Home Security</span>
         <div>

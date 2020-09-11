@@ -1,6 +1,6 @@
 <template>
     <div class="d-flex flex-column align-items-center" id="Covid">
-        <img class="mb-3 cursor" style="max-width: 120px;" src="../../assets/covidmytweetslogo.jpg">
+        <img class="mb-3" style="max-width: 120px;" src="../../assets/covidmytweetslogo.jpg">
         <span style="font-weight: bold">Covid My Tweets</span>
         <span class="text-center">Geographic Covid-19 Sentiment Visualization</span>
         <span class="location">Top Project at RU hacks</span>

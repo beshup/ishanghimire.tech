@@ -1,8 +1,8 @@
 <template>
     <div class="d-flex flex-column align-items-center" id="htmlcss">
         <div>
-            <img class="mb-3 cursor" style="max-width: 40px;" src="../../assets/technologies/htmlcss/html.png">
-            <img class="mb-3 cursor" style="max-width: 60px;" src="../../assets/technologies/htmlcss/css.png">
+            <img class="mb-3" style="max-width: 40px;" src="../../assets/technologies/htmlcss/html.png">
+            <img class="mb-3" style="max-width: 60px;" src="../../assets/technologies/htmlcss/css.png">
         </div>
         <span style="font-weight: bold">HTML/CSS</span>
         <div>
