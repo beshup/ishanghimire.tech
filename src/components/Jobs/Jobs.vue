@@ -1,7 +1,7 @@
 <template>
     <div id="jobs">
         <hr class="line">
-        <carousel-3d class="mb-1" :space="850" :animationSpeed="750" :inverse-scaling="1000" :width="400" :height="heightForDevice" :perspective="55" :controlsVisible="true" :clickable="false">
+        <carousel-3d class="mb-1" :space="850" :animationSpeed="750" :inverse-scaling="1000" :width="400" :height="heightForDevice" :perspective="55" :controlsVisible="controls" :clickable="false">
             <slide :index="0" class="slide">
                 <SwipeInfo />
             </slide>
@@ -33,12 +33,15 @@ export default {
     },
     data: function() {
         let height = 220;
+        let controls = true
         switch(this.$isMobile()) {
             case true: 
-                height = 250;
+                height = 270;
+                controls = false
         }
         return {
-            heightForDevice: height
+            heightForDevice: height,
+            controls: controls
         }
     }
 }

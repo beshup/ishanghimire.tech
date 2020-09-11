@@ -1,7 +1,7 @@
 <template>
     <div id="technologies">
         <hr class="line">
-        <carousel-3d class="mb-0" :space="850" :animationSpeed="750" :inverse-scaling="1000" :width="600" :height="heightForDevice" :perspective="55" :controlsVisible="true" :clickable="false" :autoplay="true" :autoplayHoverPause="true" :autoplayTimeout="10000">
+        <carousel-3d class="mb-0" :space="850" :animationSpeed="750" :inverse-scaling="1000" :width="600" :height="heightForDevice" :perspective="55" :controlsVisible="controls" :clickable="false" :autoplay="true" :autoplayHoverPause="true" :autoplayTimeout="10000">
             <slide :index="0" class="slide">
                 <Javascript />
             </slide>
@@ -65,12 +65,15 @@ export default {
     },
     data: function() {
         let height = 175;
+        let controls = true;
         switch(this.$isMobile()) {
             case true: 
                 height = 300;
+                controls = false;
         }
         return {
-            heightForDevice: height
+            heightForDevice: height,
+            controls: controls
         }
     }
 }
