@@ -1,7 +1,7 @@
 <template>
     <div id="projects">
         <hr class="line">
-        <carousel-3d class="mb-0 mt-3" :space="850" :animationSpeed="750" :inverse-scaling="1000" :width="500" :height="heightForDevice" :perspective="55">
+        <carousel-3d class="mb-0 mt-3" :space="850" :animationSpeed="750" :inverse-scaling="1000" :width="500" :height="heightForDevice" :perspective="55" :controlsVisible="true" :clickable="false"  :autoplay="false" :autoplayHoverPause="true" :autoplayTimeout="10000">
             <slide :index="0" class="slide">
                 <Go2Balancer />
             </slide>

@@ -1,17 +1,20 @@
 <template>
     <div id="jobs">
         <hr class="line">
-        <carousel-3d class="mb-1" :space="850" :animationSpeed="750" :inverse-scaling="1000" :width="400" :height="heightForDevice" :perspective="55">
+        <carousel-3d class="mb-1" :space="850" :animationSpeed="750" :inverse-scaling="1000" :width="400" :height="heightForDevice" :perspective="55" :controlsVisible="true" :clickable="false" :autoplay="false" :autoplayHoverPause="true" :autoplayTimeout="10000">
             <slide :index="0" class="slide">
-               <JobCard name="Flight Deck (Royal Canadian Air Force)" role="Software Engineering Intern" logo="rcaf" location="Waterloo, ON" website="https://theflightdeck.ca/"/>
+                <SwipeInfo />
             </slide>
             <slide :index="1" class="slide">
-                <JobCard name="Tamvoes Health Inc." role="Software Engineering Intern" logo="tamvoes" location="Waterloo, ON" website="https://tamvoes.com/"/>
+               <JobCard name="Flight Deck (Royal Canadian Air Force)" role="Software Engineering Intern" logo="rcaf" location="Waterloo, ON" website="https://theflightdeck.ca/"/>
             </slide>
             <slide :index="2" class="slide">
-                <JobCard name="ETHGlobal" role="Full Stack Developer" logo="ethglobal" location="Remote" website="https://ethwaterloo.com/"/>
+                <JobCard name="Tamvoes Health Inc." role="Software Engineering Intern" logo="tamvoes" location="Waterloo, ON" website="https://tamvoes.com/"/>
             </slide>
             <slide :index="3" class="slide">
+                <JobCard name="ETHGlobal" role="Full Stack Developer" logo="ethglobal" location="Remote" website="https://ethwaterloo.com/"/>
+            </slide>
+            <slide :index="4" class="slide">
                 <JobCard name="Edmonds Engineered" role="Founder" logo="ee" location="Vancouver, BC" website="https://www.edmondsengineered.com/#/" />
             </slide>
         </carousel-3d>
@@ -20,14 +23,16 @@
 
 <script>
 import JobCard from './JobCard'
+import SwipeInfo from './SwipeInfo'
 
 export default {
     name: 'Jobs',
     components: {
-        JobCard
+        JobCard,
+        SwipeInfo
     },
     data: function() {
-        let height = 200;
+        let height = 220;
         switch(this.$isMobile()) {
             case true: 
                 height = 250;

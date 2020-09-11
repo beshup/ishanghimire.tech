@@ -48,7 +48,7 @@ export default {
 }
 
 .icon {
-  font-size: 20px;
+  font-size: 24px;
 }
 
 .github {

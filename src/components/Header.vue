@@ -29,8 +29,6 @@
             <span class="input" data-ty="input" data-ty-prompt="❤️" >solving complex problems that minimize labour to output ratios</span>
             <span class="input" data-ty="input" data-ty-prompt="❤️" >bringing tech to the excluded</span>
             <span class="input" data-ty="input" data-ty-prompt="❤️" >building solutions in novel areas created by combining fields</span>
-            <span class="input" data-ty="input">head to <a target="_blank" id="aElem" href="https://ishanghimire.life">ishanghimire.life</a> to see what I do outside of tech!</span>
-            <span class="input" data-ty="input">🚧 warning 🚧: site currently under construction</span>
            <!-- <span class="input" data-ty="progress" data-ty-progressPercent="24"></span> -->
         </div>
         <div class="mt-4">

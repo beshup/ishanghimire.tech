@@ -1,6 +1,6 @@
 <template>
     <div v-if="$isMobile()" class="d-flex flex-column align-items-center mt-3" id="Clay">
-        <img class="mb-3 cursor" style="max-width: 135px;" src="../../assets/claylogo.png">
+        <img class="mb-3 cursor" style="max-width: 135px;" src="../../assets/claylogo.png" href="https:///github.com/beshup/Clay">
         <span style="font-weight: bold">Clay</span>
         <span>Cross Platform Game Engine</span>
         <div>

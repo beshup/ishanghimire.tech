@@ -7,7 +7,6 @@
             <img class="mr-1" style="width: 35px;" src="../../assets/technologies/python/flask.png">
             <img class="mr-1" style="width: 35px;" src="../../assets/technologies/python/keras.jpg">
             <img class="mr-1" style="width: 35px;" src="../../assets/technologies/python/tensorflow.png">
-            <img class="mr-1" style="width: 35px;" src="../../assets/technologies/python/opencv.png">
         </div>
 
     </div>    
