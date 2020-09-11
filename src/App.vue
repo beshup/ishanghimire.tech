@@ -92,4 +92,12 @@ export default {
     margin-bottom: 0px;
     margin-top: 0px;
 }
+
+.carousel-3d-controls a {
+  opacity: 0.35;
+}
+
+.carousel-3d-controls a:hover {
+  opacity: 1;
+}
 </style>
