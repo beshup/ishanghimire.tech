@@ -29,6 +29,7 @@
             <span class="input" data-ty="input" data-ty-prompt="❤️" >building solutions in fields that intersect my interests</span>
             <span class="input" data-ty="input" data-ty-prompt="❤️" >solving problems concerning labour efficiency</span>
             <span class="input" data-ty="input">coming soon: ishanghimire.life (what I do outside of tech)</span>
+            <span class="input" data-ty="input">email me below to inquire about my non-tech related resume</span>
            <!-- <span class="input" data-ty="progress" data-ty-progressPercent="24"></span> -->
         </div>
         <div class="mt-5">
