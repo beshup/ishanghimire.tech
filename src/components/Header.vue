@@ -23,7 +23,7 @@
     <div v-else id="header" data-aos="zoom-in" data-aos-easing="700" data-aos-duration="1500" class="header d-flex flex-column align-items-center justify-content-center">
         <div class="d-flex flex-column align-items-start" id="termynal" data-termynal data-ty-cursor="ishanghimire">
             <span class="input" data-ty="input">software engineer at the university of waterloo</span>
-            <span class="input" data-ty="input" data-ty-prompt=">>>" >currently looking for a fall 2021 internship</span>
+            <span class="input" data-ty="input" data-ty-prompt=">>>" >currently @shopify, looking for a fall 2021 internship</span>
             <span class="input" data-ty="input">i love</span>
             <span class="input" data-ty="input" data-ty-prompt="❤️" >bringing tech to everyone</span>
             <span class="input" data-ty="input" data-ty-prompt="❤️" >building solutions in fields that intersect my interests</span>
