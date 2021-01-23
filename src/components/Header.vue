@@ -12,7 +12,7 @@
                     <span class="input" data-ty="input">coming soon: ishanghimire.life (what I do outside of tech)</span>
                     <span class="input" data-ty="input">email me below to inquire about my non-dev related resume</span>
                 <!-- <span class="input" data-ty="progress" data-ty-progressPercent="24"></span> -->
-                </div>
+                </div> 
             </div>
         </div>
         <div class="mt-4">
