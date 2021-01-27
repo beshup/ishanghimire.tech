@@ -12,7 +12,7 @@
 <script>
 import rcaflogo from '../../assets/rcaflogo.png'
 import tamvoeslogo from '../../assets/tamvoeslogo.png'
-import ethgloballogo from '../../assets/ethgloballogo.png'
+import shopifylogo from '../../assets/shopifylogo.png'
 import eelogo from '../../assets/eelogo.png'
 
 export default {
@@ -29,7 +29,7 @@ export default {
         switch(this.logo) {
             case "rcaf": chosenLogo = rcaflogo; break;
             case "tamvoes": chosenLogo = tamvoeslogo; break;
-            case "ethglobal": chosenLogo = ethgloballogo; break;
+            case "shopify": chosenLogo = shopifylogo; break;
             case "ee": chosenLogo = eelogo; break;
         }
         return {
