@@ -15,6 +15,9 @@
                 <JobCard name="Tamvoes Health Inc." role="Software Engineering Intern" logo="tamvoes" location="Waterloo, ON" website="https://tamvoes.com/"/>
             </slide>
             <slide :index="4" class="slide">
+                <JobCard name="ETHGlobal" role="Software Developer" logo="ethglobal" location="Remote" website="https://ethglobal.co/"/>
+            </slide>
+            <slide :index="5" class="slide">
                 <JobCard name="Edmonds Engineered" role="Founder" logo="ee" location="Vancouver, BC" website="https://www.edmondsengineered.com/#/" />
             </slide>
         </carousel-3d>

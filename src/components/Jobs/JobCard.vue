@@ -14,6 +14,7 @@ import rcaflogo from '../../assets/rcaflogo.png'
 import tamvoeslogo from '../../assets/tamvoeslogo.png'
 import shopifylogo from '../../assets/shopifylogo.png'
 import eelogo from '../../assets/eelogo.png'
+import ethlogo from '../../assets/ethgloballogo.png'
 
 export default {
     name: 'JobCard',
@@ -31,6 +32,7 @@ export default {
             case "tamvoes": chosenLogo = tamvoeslogo; break;
             case "shopify": chosenLogo = shopifylogo; break;
             case "ee": chosenLogo = eelogo; break;
+            case "ethglobal": chosenLogo = ethlogo; break;
         }
         return {
             chosenLogo: chosenLogo
