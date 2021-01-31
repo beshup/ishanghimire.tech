@@ -5,7 +5,6 @@
         <span>Remote Home Security</span>
         <div>
             <a target="_blank" href="https://github.com/samwise2/Home-Security-Device"><font-awesome-icon class="mt-1 mr-2 github icon" :icon="['fab','github']"  /></a>
-            <a target="_blank" href="https://www.youtube.com/watch?v=lj1PTFa7HVI&t=10s"><font-awesome-icon class="mt-1 icon youtube" :icon="['fab','youtube']" /></a>
         </div>
 
     </div> 
@@ -15,7 +14,6 @@
         <span>Remote Home Security</span>
         <div>
             <a target="_blank" href="https://github.com/samwise2/Home-Security-Device"><font-awesome-icon class="mt-1 mr-2 github icon" :icon="['fab','github']"  /></a>
-            <a target="_blank" href="https://www.youtube.com/watch?v=lj1PTFa7HVI&t=10s"><font-awesome-icon class="mt-1 icon youtube" :icon="['fab','youtube']" /></a>
         </div>
 
     </div>    
