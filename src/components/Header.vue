@@ -9,7 +9,7 @@
                     <span class="input" data-ty="input" data-ty-prompt="❤️" >bringing tech to everyone</span>
                     <span class="input" data-ty="input" data-ty-prompt="❤️" >building solutions in fields that intersect my interests</span>
                     <span class="input" data-ty="input" data-ty-prompt="❤️" >solving problems concerning labour efficiency</span>
-                    <span class="input" data-ty="input">coming soon: ishan.blog</span>
+                    <span class="input" data-ty="input">coming soon: <a id="aElem" href="https://ishan.blog">ishan.blog</a></span>
                     <span class="input" data-ty="input">email me below to inquire about my non-dev related resume</span>
                 <!-- <span class="input" data-ty="progress" data-ty-progressPercent="24"></span> -->
                 </div> 
@@ -29,7 +29,7 @@
             <span class="input" data-ty="input" data-ty-prompt="❤️" >bringing tech to everyone</span>
             <span class="input" data-ty="input" data-ty-prompt="❤️" >building solutions in fields that intersect my interests</span>
             <span class="input" data-ty="input" data-ty-prompt="❤️" >solving problems concerning labour efficiency</span>
-            <span class="input" data-ty="input">coming soon: ishan.blog</span>
+            <span class="input" data-ty="input">coming soon: <a id="aElem" href="https://ishan.blog">ishan.blog</a></span>
             <span class="input" data-ty="input">email me below to inquire about my non-dev related resume</span>
            <!-- <span class="input" data-ty="progress" data-ty-progressPercent="24"></span> -->
         </div>
@@ -86,7 +86,7 @@ export default {
     }
     #aElem :hover {
         text-decoration: none;
-        color: inherit;  
+        color: blue;  
     }
 
     .resume {
