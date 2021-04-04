@@ -6,9 +6,9 @@
                     <span class="input" data-ty="input">software engineer at the university of waterloo</span>
                     <span class="input" data-ty="input" data-ty-prompt=">>>" >currently looking for a winter 2021 internship</span>
                     <span class="input" data-ty="input">i like</span>
-                    <span class="input" data-ty="input" data-ty-prompt="✊" >bringing tech to everyone</span>
+                    <span class="input" data-ty="input" data-ty-prompt="🌏" >bringing tech to everyone</span>
                     <span class="input" data-ty="input" data-ty-prompt="💻" >building solutions in fields that intersect my interests</span>
-                    <span class="input" data-ty="input" data-ty-prompt="🌏" >solving problems about the future of work</span>
+                    <span class="input" data-ty="input" data-ty-prompt="🤖" >solving problems about the future of work</span>
                     <span class="input" data-ty="input"><a id="aElem" href="https://ishan.blog">ishan.blog</a></span>
                     <span class="input" data-ty="input">unfortunately the minimalism of this site will soon be gone</span>
                     <span class="input" data-ty="input">email me below to inquire about my non-dev related resume</span>
@@ -26,10 +26,10 @@
         <div class="d-flex flex-column align-items-start" id="termynal" data-termynal data-ty-cursor="ishanghimire">
             <span class="input" data-ty="input">software engineer at the university of waterloo</span>
             <span class="input" data-ty="input" data-ty-prompt=">>>" >currently @shopify, looking for a fall 2021 internship</span>
-            <span class="input" data-ty="input">i love</span>
-                    <span class="input" data-ty="input" data-ty-prompt="✊" >bringing tech to everyone</span>
-                    <span class="input" data-ty="input" data-ty-prompt="💻" >building solutions in fields that intersect my interests</span>
-                    <span class="input" data-ty="input" data-ty-prompt="🌏" >solving problems about the future of work</span>
+            <span class="input" data-ty="input">i like</span>
+                    <span class="input" data-ty="input" data-ty-prompt="🌏">bringing tech to everyone</span>
+                    <span class="input" data-ty="input" data-ty-prompt="💻">building solutions in fields that intersect my interests</span>
+                    <span class="input" data-ty="input" data-ty-prompt="🤖">solving problems about the future of work</span>
             <span class="input" data-ty="input"><a id="aElem" href="https://ishan.blog">ishan.blog</a></span>
             <span class="input" data-ty="input">unfortunately the minimalism of this site will soon be gone</span>
             <span class="input" data-ty="input">email me below to inquire about my non-dev related resume</span>
