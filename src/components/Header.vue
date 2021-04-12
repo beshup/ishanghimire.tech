@@ -4,7 +4,7 @@
             <div class="container d-flex flex-column align-items-center justify-content-centerr">
                 <div class="d-flex flex-column align-items-start mobileT" id="termynal" data-termynal data-ty-cursor="ishanghimire">
                     <span class="input" data-ty="input">software engineer at the university of waterloo</span>
-                    <span class="input" data-ty="input" data-ty-prompt=">>>" >currently looking for a winter 2021 internship</span>
+                    <span class="input" data-ty="input" data-ty-prompt=">>>" >currently looking for a fall internship</span>
                     <span class="input" data-ty="input">i like</span>
                     <span class="input" data-ty="input" data-ty-prompt="🌏" >bringing tech to everyone</span>
                     <span class="input" data-ty="input" data-ty-prompt="💻" >building solutions in fields that intersect my interests</span>
@@ -18,14 +18,15 @@
         </div>
         <div class="mt-4">
             <a target="_blank" class="icono" href="https://github.com/beshup"><font-awesome-icon :icon="['fab','github']" class="mr-4 github hover icono" size="3x" /></a>
-            <a target="_blank" class="icono" href="/assets/IshanGhimireResumeW2021.pdf"><font-awesome-icon icon="file-alt" class="mr-4 resume hover icono" size="3x" /></a>
+            <a target="_blank" class="icono" href="https://www.linkedin.com/in/ishan-ghimire/"><font-awesome-icon :icon="['fab', 'linkedin-in']" class="mr-4 resume hover icono" size="4x" /></a>
+            <a target="_blank" class="icono" href="/assets/IshanGhimireResumeW2021.pdf"><font-awesome-icon icon="file-alt" class="mr-4 resume hover icono" size="4x" /></a>
             <a target="_blank" class="icono" href="mailto: ighimire@uwaterloo.ca"><font-awesome-icon icon="envelope" class="mail hover icono" size="3x" /></a>
         </div>
     </div> 
     <div v-else id="header" data-aos="zoom-in" data-aos-easing="700" data-aos-duration="1500" class="header d-flex flex-column align-items-center justify-content-center">
         <div class="d-flex flex-column align-items-start" id="termynal" data-termynal data-ty-cursor="ishanghimire">
             <span class="input" data-ty="input">software engineer at the university of waterloo</span>
-            <span class="input" data-ty="input" data-ty-prompt=">>>" >currently @shopify, looking for a fall 2021 internship</span>
+            <span class="input" data-ty="input" data-ty-prompt=">>>" >currently looking for a fall 2021 internship</span>
             <span class="input" data-ty="input">i like</span>
                     <span class="input" data-ty="input" data-ty-prompt="🌏">bringing tech to everyone</span>
                     <span class="input" data-ty="input" data-ty-prompt="💻">building solutions in fields that intersect my interests</span>
@@ -37,6 +38,7 @@
         </div>
         <div class="mt-5">
             <a target="_blank" class="icono" href="https://github.com/beshup"><font-awesome-icon :icon="['fab','github']" class="mr-4 github hover icono" size="4x" /></a>
+            <a target="_blank" class="icono" href="https://www.linkedin.com/in/ishan-ghimire/"><font-awesome-icon :icon="['fab', 'linkedin-in']" class="mr-4 resume hover icono" size="4x" /></a>
             <a target="_blank" class="icono" href="/assets/IshanGhimireResumeW2021.pdf"><font-awesome-icon icon="file-alt" class="mr-4 resume hover icono" size="4x" /></a>
             <a target="_blank" class="icono" href="mailto: ighimire@uwaterloo.ca"><font-awesome-icon icon="envelope" class="mail hover icono" size="4x" /></a>
         </div>

@@ -4,6 +4,7 @@
         <span style="font-weight: bold">Other</span>
         <div>
             <img class="mr-1" style="width: 35px;" src="../../assets/technologies/other/docker.png">
+            <img class="mr-1" style="width: 35px;" src="../../assets/kafkalogo.png">
             <img class="mr-1" style="width: 35px;" src="../../assets/technologies/other/graphql.png">
         </div>
 

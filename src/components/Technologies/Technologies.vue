@@ -23,13 +23,16 @@
             <slide :index="6" class="slide">
                 <Cplusplus />
             </slide>
-            <slide :index="7" class="slide mt-1">
+            <slide :index="7" class="slide">
+                <Web3 />
+            </slide>
+            <slide :index="8" class="slide mt-1">
                 <Databases />
             </slide>
-            <slide :index="8" class="slide">
+            <slide :index="9" class="slide">
                 <Mobile />
             </slide>
-            <slide :index="9" class="slide mt-3">
+            <slide :index="10" class="slide mt-3">
                 <Other /> 
             </slide>
         </carousel-3d>
@@ -48,6 +51,7 @@ import Databases from './Databases'
 import Mobile from './Mobile'
 import Other from './Other'
 import Htmlcss from './Htmlcss'
+import Web3 from './web3'
 
 export default {
     name: 'Technologies',
@@ -61,7 +65,8 @@ export default {
         Databases,
         Mobile,
         Other,
-        Htmlcss
+        Htmlcss,
+        Web3
     },
     data: function() {
         let height = 175;

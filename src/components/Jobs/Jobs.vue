@@ -6,7 +6,7 @@
                 <SwipeInfo />
             </slide>
             <slide :index="1" class="slide">
-                <JobCard name="Shopify" role="Production Engineering Intern" logo="shopify" location="Remote" website="https://shopify.com/"/>
+                <JobCard name="Shopify" role="Infrastructure Engineering Intern" logo="shopify" location="Remote" website="https://shopify.com/"/>
             </slide>
             <slide :index="2" class="slide">
                <JobCard name="Flight Deck (Royal Canadian Air Force)" role="Software Engineering Intern" logo="rcaf" location="Waterloo, ON" website="https://theflightdeck.ca/"/>
