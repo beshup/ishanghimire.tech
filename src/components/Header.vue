@@ -12,6 +12,7 @@
                     <span class="input" data-ty="input"><a id="aElem" href="https://ishan.blog">ishan.blog</a></span>
                     <span class="input" data-ty="input">unfortunately the minimalism of this site will soon be gone</span>
                     <span class="input" data-ty="input">email me below to inquire about my non-dev related resume</span>
+                    <span class="input" data-ty="input" data-ty-prompt="⚙️">this site is not the most up to date, as I continue to explore some longer ventures, but stay tuned</span>
                 <!-- <span class="input" data-ty="progress" data-ty-progressPercent="24"></span> -->
                 </div> 
             </div>
@@ -34,6 +35,7 @@
             <span class="input" data-ty="input"><a id="aElem" href="https://ishan.blog">ishan.blog</a></span>
             <span class="input" data-ty="input">unfortunately the minimalism of this site will soon be gone</span>
             <span class="input" data-ty="input">email me below to inquire about my non-dev related resume</span>
+            <span class="input" data-ty="input" data-ty-prompt="⚙️">this site is not the most up to date, as I continue to explore some longer ventures, but stay tuned</span>
            <!-- <span class="input" data-ty="progress" data-ty-progressPercent="24"></span> -->
         </div>
         <div class="mt-5">
