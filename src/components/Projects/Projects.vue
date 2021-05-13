@@ -3,24 +3,27 @@
         <hr class="line">
         <carousel-3d class="mb-0 mt-3" :space="850" :animationSpeed="750" :inverse-scaling="1000" :width="500" :height="heightForDevice" :perspective="55" :controlsVisible="controls" :clickable="false"  :autoplay="true" :autoplayHoverPause="true" :autoplayTimeout="10000">
             <slide :index="0" class="slide">
-                <Price />
+                <SocialKontracts />
             </slide>
             <slide :index="1" class="slide">
-                <Go2Balancer />
+                <Price />
             </slide>
             <slide :index="2" class="slide">
+                <Go2Balancer />
+            </slide>
+            <slide :index="3" class="slide">
                 <Covid />
             </slide>
-            <slide :index="3" class="slide mt-4">
+            <slide :index="4" class="slide mt-4">
                 <UnderratedTunes />
             </slide>
-            <slide :index="4" class="slide">
+            <slide :index="5" class="slide">
                 <MineBuskers />
             </slide>
-            <slide :index="5" class="slide">
+            <slide :index="6" class="slide">
                <FunGuy />
             </slide>
-            <slide :index="6" class="slide">
+            <slide :index="7" class="slide">
                 <Clay />
             </slide>
         </carousel-3d>
@@ -35,6 +38,7 @@ import FunGuy from './FunGuy'
 import Covid from './Covid'
 import Clay from './Clay'
 import Price from './Price'
+import SocialKontracts from './SocialKontracts'
 
 export default {
     name: 'Projects',
@@ -45,7 +49,8 @@ export default {
         FunGuy,
         Covid,
         Clay,
-        Price
+        Price,
+        SocialKontracts
     },
     data: function() {
         let height = 200;
