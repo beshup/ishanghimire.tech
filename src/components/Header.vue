@@ -4,15 +4,14 @@
             <div class="container d-flex flex-column align-items-center justify-content-centerr">
                 <div class="d-flex flex-column align-items-start mobileT" id="termynal" data-termynal data-ty-cursor="ishanghimire">
                     <span class="input" data-ty="input">software engineer at the university of waterloo</span>
-                    <span class="input" data-ty="input" data-ty-prompt=">>>" >currently looking for a fall internship</span>
+                    <span class="input" data-ty="input" data-ty-prompt=">>>" >look to my linkedin for employment, honours, other stuff</span>
                     <span class="input" data-ty="input">i like</span>
                     <span class="input" data-ty="input" data-ty-prompt="🌏" >bringing tech to everyone</span>
                     <span class="input" data-ty="input" data-ty-prompt="💻" >building solutions in fields that intersect my interests</span>
                     <span class="input" data-ty="input" data-ty-prompt="🤖" >solving problems about the future of work</span>
                     <span class="input" data-ty="input"><a id="aElem" href="https://ishan.blog">ishan.blog</a></span>
-                    <span class="input" data-ty="input">unfortunately the minimalism of this site will soon be gone</span>
                     <span class="input" data-ty="input">email me below to inquire about my non-dev related resume</span>
-                    <span class="input" data-ty="input" data-ty-prompt="⚙️">this site struggles to stay to date, but a mass dump is coming in the near future, some things take a while to be seen through</span>
+                    <span class="input" data-ty="input" data-ty-prompt="⚙️">this site struggles to stay up to date lol</span>
                 <!-- <span class="input" data-ty="progress" data-ty-progressPercent="24"></span> -->
                 </div> 
             </div>
@@ -27,15 +26,14 @@
     <div v-else id="header" data-aos="zoom-in" data-aos-easing="700" data-aos-duration="1500" class="header d-flex flex-column align-items-center justify-content-center">
         <div class="d-flex flex-column align-items-start" id="termynal" data-termynal data-ty-cursor="ishanghimire">
             <span class="input" data-ty="input">software engineer at the university of waterloo</span>
-            <span class="input" data-ty="input" data-ty-prompt=">>>" >currently looking for a fall 2021 internship</span>
-            <span class="input" data-ty="input">i like</span>
-                    <span class="input" data-ty="input" data-ty-prompt="🌏">bringing tech to everyone</span>
-                    <span class="input" data-ty="input" data-ty-prompt="💻">building solutions in fields that intersect my interests</span>
-                    <span class="input" data-ty="input" data-ty-prompt="🤖">solving problems about the future of work</span>
-            <span class="input" data-ty="input"><a id="aElem" href="https://ishan.blog">ishan.blog</a></span>
-            <span class="input" data-ty="input">unfortunately the minimalism of this site will soon be gone</span>
-            <span class="input" data-ty="input">email me below to inquire about my non-dev related resume</span>
-            <span class="input" data-ty="input" data-ty-prompt="⚙️">this site struggles to stay to date, but a mass dump is coming in the near future, some things take a while to be seen through</span>
+                    <span class="input" data-ty="input" data-ty-prompt=">>>" >look to my linkedin for employment, honours, other stuff</span>
+                    <span class="input" data-ty="input">i like</span>
+                    <span class="input" data-ty="input" data-ty-prompt="🌏" >bringing tech to everyone</span>
+                    <span class="input" data-ty="input" data-ty-prompt="💻" >building solutions in fields that intersect my interests</span>
+                    <span class="input" data-ty="input" data-ty-prompt="🤖" >solving problems about the future of work</span>
+                    <span class="input" data-ty="input"><a id="aElem" href="https://ishan.blog">ishan.blog</a></span>
+                    <span class="input" data-ty="input">email me below to inquire about my non-dev related resume</span>
+                    <span class="input" data-ty="input" data-ty-prompt="⚙️">this site struggles to stay up to date lol</span>
            <!-- <span class="input" data-ty="progress" data-ty-progressPercent="24"></span> -->
         </div>
         <div class="mt-5">

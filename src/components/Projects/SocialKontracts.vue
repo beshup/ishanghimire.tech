@@ -1,5 +1,5 @@
 <template>
-    <div class="d-flex flex-column align-items-center" id="SocialKontracts">
+    <div class="d-flex flex-column align-items-center mt-2" id="SocialKontracts">
         <img class="mb-2" style="max-width: 60px;" src="../../assets/socialkontractslogo.png">
         <span style="font-weight: bold">Social Kontracts</span>
         <span class="text-center">Lifestyle Staking on the Blockchain</span>
