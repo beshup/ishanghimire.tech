@@ -1,33 +1,13 @@
 <template>
 <div>
-  <Header />
-  <div v-if="$isMobile()" id="app" class="container">
-    <Projects />
-    <Technologies />
-    <Footer />
-  </div>
-  <div v-else id="app">
-    <Projects />
-    <Technologies />
-    <Footer />
-  </div>
+  come back sometime else
 </div>
 </template>
 
 <script>
-import Header from './components/Header.vue'
-import Projects from './components/Projects/Projects.vue'
-import Technologies from './components/Technologies/Technologies.vue'
-import Footer from './components/Footer.vue'
 
 export default {
-  name: 'App',
-  components: {
-    Header,
-    Projects,
-    Technologies,
-    Footer
-  }
+  name: 'App'
 }
 </script>
 
